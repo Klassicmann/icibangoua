@@ -1,0 +1,141 @@
+﻿CAHIER DES CHARGES TECHNIQUE ET
+FONCTIONNEL
+Plateforme Web & Mobile ICIBANGOUA.net
+Date de Démarrage : 10 mars 2026
+1. Architecture Globale du Système (Hybride / Multi-Backend)
+Pour garantir des performances optimales et répondre aux exigences spécifiques du
+mobile, le système reposera sur une architecture Hybride (Multi-Backend). L'infrastructure
+existante (domaine et hébergement) sera utilisée .
+Le système s'articulera autour de deux cœurs :
+• Backend 1 (Content Management) : Un back-office WordPress optimisé servant de
+système de gestion de contenu (CMS) "Headless". Il gérera les articles, les modules
+d'apprentissage et les médias statiques via une API REST.
+• Backend 2 (Interactive & Mobile Engine) : Un backend sur-mesure combinant
+Python et Firebase, dédié aux fonctionnalités en temps réel (chat, échanges
+virtuels) et aux processus lourds propres à l'application mobile (notifications,
+synchronisation hors-ligne), qui s'adaptent mal à l'environnement WordPress
+standard.
+Le système sera bilingue (Anglais/Français) et optimisé "Mobile-First" pour les
+environnements à faible connectivité.
+2. Plateforme Web (ICIBANGOUA.net)
+La plateforme web servira d'infrastructure numérique centrale et sera divisée en modules
+principaux gérés majoritairement par WordPress:
+• 2.1. Plateforme d'Apprentissage (LMS) :
+o Hébergement des modules de dialogue civique et des ressources de
+formation pour les facilitateurs.
+o Espaces de discussions asynchrones et activités de réflexion.
+• 2.2. Hub de Publication de Médias (Civic Media) :
+o Espace de création pour les jeunes (articles, podcasts, vidéos, essais
+photographiques) .
+o Système de modération (workflow éditorial) et catégorisation par pays et par
+thème.
+• 2.3. Canal de Diffusion Public :
+o Affichage public des actualités du projet, rapports, recommandations
+politiques (ex: "Youth White Paper") et diffusions de festivals .
+3. Application Mobile (Android & iOS)
+L'application mobile fonctionnera en symbiose avec le site web, en s'appuyant fortement
+sur le Backend 2 (Python & Firebase) pour ses fonctionnalités interactives et de
+collaboration.
+• 3.1. Environnement d'Échange Virtuel (Virtual Exchange) :
+o Salles de discussion modérées (audio/vidéo) et sondages interactifs en
+temps réel pour soutenir les 24 sessions prévues.
+• 3.2. Espace de Collaboration (Youth Clubs) :
+o Groupes de discussion (chat propulsé par Firebase), tableaux de projets
+collaboratifs et outils de coordination d'événements pour les équipes interpays.
+• 3.3. Hub de Publication Mobile :
+o Fonctionnalité d'enregistrement direct et d'upload de vidéos, podcasts et
+photos directement depuis le smartphone .
+• 3.4. Engagement, Notifications et Mode Hors-Ligne :
+o Système de notifications Push (Firebase Cloud Messaging) pour les alertes,
+nouveaux contenus et rappels d'événements .
+o Innovation technologique : Mise en cache locale pour permettre une
+utilisation de l'application avec une faible bande passante ou en mode horsligne.
+• 3.5. Intégration de l'Intelligence Artificielle (Spécifique au Mobile géré via Python) :
+o Traduction Assistée par IA : Pour faciliter le dialogue multilingue fluide lors
+des échanges virtuels.
+o Moteur de Recommandation : Suggestion personnalisée de modules
+d'apprentissage pertinents et d'histoires civiques .
+o Filtres de Modération Intelligents : Outils d'IA intégrés pour détecter et
+bloquer les discours haineux ou les contenus inappropriés directement lors
+de la création de contenu sur le mobile . Toutes les fonctionnalités IA
+respecteront strictement la conformité RGPD.
+4. Calendrier de Livraison Détaillé (Phase 1 : Mois 1 à 6)
+Le chronogramme est établi à partir du mardi 10 mars 2026 pour une durée totale de 6
+mois.
+Jalon 1 : Conception & Refonte Web (Durée : 2 Mois)
+Période : Du 10 mars 2026 au 9 mai 2026.
+• Livrables :
+o Architecture de la base de données hybride et conception des maquettes.
+o Refonte complète du CMS WordPress (Intégration LMS, Hub de Médias, API
+REST).
+o Mise en place de l'infrastructure de base Python/Firebase pour préparer la
+connexion mobile.
+• Date de livraison (Plateforme Web Opérationnelle) : Vendredi 8 mai 2026.
+Jalon 2 : Développement Mobile & Déploiement (Durée : 4 Mois)
+Période : Du lundi 11 mai 2026 au mardi 8 septembre 2026.
+• Livrables :
+o Développement des applications natives/hybrides Android et iOS
+connectées à WordPress (contenu) et Firebase/Python (interactivité).
+o Intégration des fonctionnalités dynamiques : Chat temps réel, upload de
+médias direct, notifications Push, IA Mobile, mode hors-ligne.
+o Tests de charge, corrections et optimisation de la bande passante.
+o Soumission et validation sur Google Play Store et Apple App Store.
+• Date de livraison (Lancement Officiel Global) : Mardi 8 septembre 2026.
+5. Phase 2 : Maintenance, Évolutions et Formation
+Période : À partir du mercredi 9 septembre 2026 (Mois 7 à 24).
+• Maintenance : Support correctif, mise à jour des serveurs et optimisation continue .
+• Évolutions : Ajout de nouvelles fonctionnalités selon les retours de la communauté.
+• Transfert de compétences : Sessions de formation pour les administrateurs locaux
+(gestion de WordPress et du backend Firebase/Python) et livraison de la
+documentation technique finale .
+6. Modalités Financières et Échéancier de Paiement
+6.1. Exclusions des frais annexes
+Les montants stipulés ci-dessous couvrent exclusivement les honoraires de
+développement et de maintenance de l'agence THE NET. Ne sont pas inclus dans ce tarif
+et restent à la charge exclusive du Client :
+• Les frais d'hébergement web et de noms de domaine (déjà sécurisés par le projet) .
+• Les coûts potentiels d'utilisation de services tiers (consommation API externes,
+Firebase payant si dépassement du quota gratuit).
+• Les frais annuels d'ouverture et de maintien des comptes développeurs sur l'Apple
+App Store et le Google Play Store.
+6.2. Phase 1 : Développement Initial (Mois 1 à 6)
+Le budget total convenu pour la conception, le développement technique et le
+déploiement de la Phase 1 est fixé à 1 500 000 FCFA. Le règlement s'effectuera en quatre
+(4) tranches, conditionnées par l'avancement du projet :
+• Tranche 1 (Démarrage) : 500 000 FCFA
+o Condition : Au démarrage effectif du projet (10 mars 2026).
+• Tranche 2 (Livraison Web) : 500 000 FCFA
+o Condition : À la livraison et validation de la plateforme Web ICIBANGOUA.net
+(Vendredi 8 mai 2026).
+• Tranche 3 (Mi-parcours Mobile) : 250 000 FCFA
+o Condition : Après 2 mois de développement de la phase mobile (Mi-juillet
+2026), sur présentation d'une version fonctionnelle (Bêta/Test) de
+l'application.
+• Tranche 4 (Livraison Finale) : 250 000 FCFA
+o Condition : À la fin du projet, lors du déploiement officiel global des
+applications sur les stores et de la remise des livrables finaux (Mardi 8
+septembre 2026).
+6.3. Phase 2 : Maintenance et Formation (Mois 7 à 24)
+Conformément à l'offre initiale, la phase post-développement couvrant la maintenance
+évolutive, le support technique et le transfert de compétences aux équipes locales fera
+l'objet d'une facturation distincte. Cette prestation sera facturée à hauteur de 50 000 FCFA
+par mois, pour la durée totale de cette phase d'accompagnement.
+6.4. Moyens de Paiement
+Afin de faciliter les transactions, le Client pourra honorer ses paiements via l'une des
+méthodes suivantes :
+• Virement Bancaire :
+Afriland First Bank
+o Titulaire du compte : MBAMBA SARL
+o Numéro de compte : 10005 00113 00000028819 36
+• MTN Mobile Money :
+o Numéro : 654 11 85 18
+o Nom : Valery Yola
+• Espèces (Cash)
+Fait à Douala,
+Le ___________________
+Pour THE NET
+Nom: Valery Yola
+Signature:
+Pour le Client
+Nom: Web and Developement Foundation
+Signature: 

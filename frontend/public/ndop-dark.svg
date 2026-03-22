@@ -1,0 +1,33 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="400" height="400" />
+    <line x1="200" y1="0" x2="200" y2="400" />
+    <line x1="0" y1="200" x2="400" y2="200" />
+    
+    <g transform="translate(100, 100)">
+      <circle cx="0" cy="0" r="60" />
+      <circle cx="0" cy="0" r="40" />
+      <line x1="-60" y1="0" x2="60" y2="0" />
+      <line x1="0" y1="-60" x2="0" y2="60" />
+      <circle cx="0" cy="0" r="15" fill="#ffffff" />
+    </g>
+    <g transform="translate(300, 300)">
+      <circle cx="0" cy="0" r="60" />
+      <circle cx="0" cy="0" r="40" />
+      <line x1="-60" y1="0" x2="60" y2="0" />
+      <line x1="0" y1="-60" x2="0" y2="60" />
+      <circle cx="0" cy="0" r="15" fill="#ffffff" />
+    </g>
+    
+    <g transform="translate(300, 100)">
+      <path d="M0 -70 L70 0 L0 70 L-70 0 Z" />
+      <path d="M0 -40 L40 0 L0 40 L-40 0 Z" />
+      <circle cx="0" cy="0" r="12" fill="#ffffff" />
+    </g>
+    <g transform="translate(100, 300)">
+      <path d="M0 -70 L70 0 L0 70 L-70 0 Z" />
+      <path d="M0 -40 L40 0 L0 40 L-40 0 Z" />
+      <circle cx="0" cy="0" r="12" fill="#ffffff" />
+    </g>
+  </g>
+</svg>
